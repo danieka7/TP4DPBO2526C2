@@ -3,7 +3,7 @@ public class Person {
     private String nama;
     private String negara;
     private int tahunLahir;
-    private String kategori;
+    private String role;
     private String skillLevel;
 
     // konstruktor kosong
@@ -11,12 +11,12 @@ public class Person {
     }
 
     // konstruktor
-    public Person(String id, String nama, String negara, int tahunLahir, String kategori, String skillLevel){
+    public Person(String id, String nama, String negara, int tahunLahir, String role, String skillLevel){
         this.id = id;
         this.nama = nama;
         this.negara = negara;
         this.tahunLahir = tahunLahir;
-        this.kategori = kategori;
+        this.role = role;
         this.skillLevel = skillLevel;
     }
 
@@ -33,8 +33,8 @@ public class Person {
     public int getTahunLahir(){
         return tahunLahir;
     }
-    public String getKategori(){
-        return kategori;
+    public String getRole(){
+        return role;
     }
     public String getSkillLevel(){
         return skillLevel;
@@ -47,11 +47,15 @@ public class Person {
     public void setNama(String nama){
         this.nama = nama;
     }
+    // BARU: setter negara, dibutuhkan oleh fitur Update
+    public void setNegara(String negara){
+        this.negara = negara;
+    }
     public void setTahunLahir(int tahunLahir){
         this.tahunLahir = tahunLahir;
     }
-    public void setKategori(String kategori){
-        this.kategori = kategori;
+    public void setRole(String role){
+        this.role = role;
     }
     public void setSkillLevel(String skillLevel){
         this.skillLevel = skillLevel;
