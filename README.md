@@ -19,8 +19,6 @@ Program ini merupakan implementasi dari konsep OOP dengan tema **People (PeopleD
 │   ├── PeopleMenu.java
 │   └── Person.java
 └── README.md
-
-
 ```
 
 ## Fitur Utama
@@ -32,6 +30,11 @@ Program ini merupakan implementasi dari konsep OOP dengan tema **People (PeopleD
 - **Membatalkan** pengisian atau pemilihan data (tombol **Cancel**)
 - **Validasi input**: semua field wajib diisi, tahun lahir harus angka dan masuk akal (1900 sampai tahun sekarang), role dan skill level wajib dipilih, serta ID tidak boleh ganda
 ## Desain dan Penjelasan
+
+### Desain
+![desain](<Dokumentasi/TP4_design.png>)
+
+
 
 ### Struktur Data Kelas
 - #### Person
