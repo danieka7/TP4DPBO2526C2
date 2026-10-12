@@ -111,6 +111,6 @@ Saat tombol **Delete** ditekan, program tidak langsung menghapus data. Method `d
     - #### Tampilan Setelah Update
       ![setelahUpdate](<Dokumentasi/setelahUpdate.png>)
     - #### Tampilan Delete
-      ![delete](<Dokumentasi/setelahUpdate.png>)
+      ![delete](<Dokumentasi/delete.png>)
     - #### Tampilan Setelah Delete
-      ![setelahDelete](<Dokumentasi/setelahUpdate.png>)
+      ![setelahDelete](<Dokumentasi/sesudahDelete.png>)
